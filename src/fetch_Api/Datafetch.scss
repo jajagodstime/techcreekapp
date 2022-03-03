@@ -1,0 +1,221 @@
+.DataContainer {
+    background-color: rgb(241, 241, 223);
+    animation: fade 3s ease-in-out;
+    @keyframes faded {
+        0% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+    .span {
+        position: absolute;
+        left: 92%;
+    }
+    .lccicons {
+        position: fixed;
+        left: 95%;
+        top: 40%;
+        background-color: transparent;
+        .learn {
+            padding-bottom: 20px;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            cursor: pointer;
+            &:hover {
+                border: 3px solid blue;
+            }
+            img {
+                width: 26px;
+                position: relative;
+                left: 25%;
+                top: 29%;
+            }
+        }
+        .create {
+            padding-bottom: 20px;
+            border-radius: 50%;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            cursor: pointer;
+            &:hover {
+                border: 3px solid blue;
+            }
+            img {
+                width: 26px;
+                position: relative;
+                left: 24%;
+                top: 30%;
+            }
+        }
+        .connect {
+            padding-bottom: 20px;
+            border-radius: 50%;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            cursor: pointer;
+            &:hover {
+                border: 3px solid blue;
+            }
+            margin-bottom: 10px;
+            img {
+                width: 26px;
+                position: relative;
+                left: 22%;
+                top: 25%;
+            }
+        }
+    }
+    .blogo {
+        width: 60px;
+        height: 60px;
+        margin: 2%;
+        position: absolute;
+        img {
+            position: absolute;
+            width: 30px;
+            padding: 5px;
+        }
+    }
+    .Blogcontain {
+        p {
+            text-align: center;
+            top: 40%;
+            color: darkblue;
+            padding: 3% 8%;
+        }
+        h1 {
+            text-align: center;
+            position: relative;
+            top: 36%;
+            font-size: 4rem;
+            color: darkblue;
+            font-weight: bolder;
+        }
+        .free_courses {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+            height: 83vh;
+            background-color: rgb(241, 241, 223);
+            p {
+                color: black;
+            }
+            justify-items: center;
+            .blogs {
+                width: 92%;
+                height: 90%;
+                background-color: white;
+                margin-top: 30px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                img {
+                    width: 200px;
+                    height: 200px;
+                    padding-top: 5px;
+                    padding-left: 3px;
+                }
+                h3 {
+                    padding-left: 5px;
+                }
+                p {
+                    text-align: start;
+                    padding-left: 10px;
+                    padding-top: 1px;
+                }
+                button {
+                    background-color: cyan;
+                    color: black;
+                    padding: 6px 20px;
+                    border: none;
+                    border-radius: 3px;
+                    margin-left: 120px;
+                    margin-bottom: 1px;
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
+            }
+            span {
+                position: absolute;
+                left: 85%;
+                top: 130%;
+                font-weight: bolder;
+            }
+        }
+        padding: 2rem 4rem;
+        gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Blogcontainer {
+        display: grid;
+        padding: 2rem 4rem;
+        gap: 2rem;
+        grid-template-columns: repeat(1, 2fr);
+        .card__container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            animation: movingdiv;
+            position: relative;
+            animation-duration: 5s;
+            img {
+                object-fit: cover;
+            }
+            @keyframes movingdiv {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        }
+        .Card_content {
+            margin-left: 1rem;
+            padding: 1rem;
+            .Title {
+                font-weight: bold;
+            }
+            .description {
+                font-weight: bold;
+            }
+        }
+        .btn__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .date {
+                span {
+                    font-weight: bold;
+                }
+            }
+            p {
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+        button {
+            border: none;
+            background-color: tomato;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0f151f;
+        }
+    }
+}

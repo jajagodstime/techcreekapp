@@ -1,0 +1,50 @@
+.lcc {
+    position: absolute;
+    top: -160%;
+    left: 135%;
+    width: 30%;
+    background-color: transparent;
+    padding-right: 10px;
+    .learn {
+        padding-bottom: 20px;
+        border-radius: 50%;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        img {
+            width: 26px;
+            position: relative;
+            left: 22%;
+            top: 25%;
+        }
+    }
+    .create {
+        padding-bottom: 20px;
+        border-radius: 50%;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        img {
+            width: 26px;
+            position: relative;
+            left: 22%;
+            top: 25%;
+        }
+    }
+    .connect {
+        padding-bottom: 20px;
+        border-radius: 50%;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        img {
+            width: 26px;
+            position: relative;
+            left: 22%;
+            top: 25%;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.footerContainer {
+    h5 {
+        position: relative;
+        top: 2%;
+        font-size: 20px;
+        left: 7%;
+    }
+    margin-top: 20%;
+    background: #0544a8;
+    .footergridcont {
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 1rem;
+        .socials {
+            margin-left: 1rem;
+            cursor: pointer;
+            a {
+                text-decoration: none;
+            }
+        }
+        .location {
+            p {
+                font-size: 0.9rem;
+            }
+        }
+        .School {
+            margin-left: 2rem;
+            ul {
+                list-style: none;
+                cursor: pointer;
+                margin-bottom: 5%;
+                margin-right: 1rem;
+                li {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        .Resources {
+            ul {
+                list-style: none;
+                cursor: pointer;
+                margin-right: 1rem;
+                li {
+                    .item {
+                        color: white;
+                        font-size: 0.9rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

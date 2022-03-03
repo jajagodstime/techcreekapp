@@ -1,0 +1,32 @@
+.student--section {
+    animation: fadein 3s 2s 2s ease;
+    @keyframes fadein {
+        0% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+    padding: 1rem 0rem;
+    .header {
+        padding: 10px 20px;
+        width: 350px;
+        height: 200px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: #f5f5f5;
+        box-sizing: border-box;
+        border-radius: 5px;
+        h6 {
+            font-size: 15px;
+            color: #0f151f;
+            margin-bottom: 1px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+}
